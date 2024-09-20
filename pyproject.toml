@@ -1,14 +1,18 @@
 [tool.poetry]
-name = "airbnb-clone"
+name = "airbnb-clone-backend"
 version = "0.1.0"
-description = ""
+description = "airbnb clone with django"
 authors = ["toweringcloud <toweringcloud@gmail.com>"]
-readme = "README.md"
+license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.11"
 django = "^5.1.1"
+pillow = "^10.4.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
