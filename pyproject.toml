@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "airbnb-clone-backend"
+name = "airbnb-clone-fullstack"
 version = "0.1.0"
-description = "airbnb clone with django"
+description = "airbnb clone with django and react"
 authors = ["toweringcloud <toweringcloud@gmail.com>"]
 license = "MIT"
 
@@ -9,6 +9,7 @@ license = "MIT"
 python = "^3.11"
 django = "^5.1.1"
 pillow = "^10.4.0"
+djangorestframework = "^3.15.2"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.8.0"
