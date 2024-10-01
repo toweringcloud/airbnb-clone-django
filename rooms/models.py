@@ -3,7 +3,6 @@ from common.models import CommonModel
 
 
 class Room(CommonModel):
-
     """Room Model Definition"""
 
     class RoomKindChoices(models.TextChoices):
@@ -72,7 +71,6 @@ class Room(CommonModel):
 
 
 class Amenity(CommonModel):
-
     """Amenity Definiton"""
 
     name = models.CharField(

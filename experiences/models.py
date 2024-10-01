@@ -3,7 +3,6 @@ from common.models import CommonModel
 
 
 class Experience(CommonModel):
-
     """Experience Model Definiiton"""
 
     country = models.CharField(
@@ -46,7 +45,6 @@ class Experience(CommonModel):
 
 
 class Perk(CommonModel):
-
     """What is included on an Experience"""
 
     name = models.CharField(
