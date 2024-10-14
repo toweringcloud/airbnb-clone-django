@@ -155,3 +155,12 @@ REST_FRAMEWORK = {
         "config.authentications.JWTAuthentication",
     ]
 }
+
+
+# Media for development
+MEDIA_ROOT = "uploads"
+MEDIA_URL = "user-uploads/"
+
+
+# Pagination
+PAGE_SIZE = 3

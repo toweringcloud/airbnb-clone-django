@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "airbnb-clone"
+name = "airbnb-clone-django"
 version = "0.1.0"
 description = "airbnb clone with django and react"
 authors = ["toweringcloud <toweringcloud@gmail.com>"]
