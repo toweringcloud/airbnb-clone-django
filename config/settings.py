@@ -46,9 +46,10 @@ CUSTOM_APPS = [
 ]
 
 THIRD_PARTY_APPS = [
+    "corsheaders",
+    "django_extensions",
     "rest_framework",
     "rest_framework.authtoken",
-    "corsheaders",
 ]
 
 SYSTEM_APPS = [
